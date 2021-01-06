@@ -1,0 +1,15 @@
+.sweet-alert {
+  width: auto;
+  text-align: inherit;
+  padding: 50px;
+  margin-left: -350px;
+}
+
+.sweet-alert .sa-confirm-button-container {
+  float: right;
+}
+
+.sweet-alert .sa-confirm-button-container button {
+  background-color: #7788C4 !important;
+}
+/*# sourceMappingURL=sweetalertcustom.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CAUtB;;AAdD,AAMI,YANQ,CAMR,4BAA4B,CAAA;EACxB,KAAK,EAAE,KAAK;CAKf;;AAZL,AASQ,YATI,CAMR,4BAA4B,CAGxB,MAAM,CAAA;EACF,gBAAgB,EAAE,OAAO,CAAA,UAAU;CACtC",
+    "sources": [
+        "sweetalertcustom.scss"
+    ],
+    "names": [],
+    "file": "sweetalertcustom.css"
+}

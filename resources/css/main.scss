@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     margin: 0;
     padding: 0;
@@ -86,8 +87,18 @@ body{
                 padding: 10px 20px;
                 background-color: rgba(248, 249, 250, 0.829);
                 color: #7788C4;
+                
+                .table-button{
+                    border: none;
+                    background-color: transparent;
+                    width: 100%;
+                    text-decoration: underline;
+                    color: #7788C4;
+                }
             }
-
+            button{
+                outline: none!important;
+            }
         }   
         .right-container{
             position: absolute;
@@ -146,6 +157,7 @@ body{
                 left: 50%;
                 transform: translate(-50%,-50%);
                 z-index: 4;
+
                 .logo-link{
                     width: 300px;
                     color:#7788C4;
