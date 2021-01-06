@@ -28,6 +28,7 @@ body {
 #page-wrap .site-container-row .left-container {
   position: absolute;
   overflow-y: auto;
+  overflow-x: hidden;
   width: 70%;
   height: 100%;
   background-color: #7788C4;
@@ -65,6 +66,34 @@ body {
   background-color: transparent !important;
 }
 
+#page-wrap .site-container-row .left-container .text-marked {
+  background-color: #f8f9fa !important;
+  color: rgba(52, 58, 64, 0.6) !important;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#page-wrap .site-container-row .left-container .content-heading-20 {
+  margin-top: 20px;
+}
+
+#page-wrap .site-container-row .left-container .content-heading-50 {
+  margin-top: 50px;
+}
+
+#page-wrap .site-container-row .left-container table {
+  border-color: #7788C4;
+  border-style: hidden;
+  border-radius: 10px;
+}
+
+#page-wrap .site-container-row .left-container td {
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  color: #7788C4;
+}
+
 #page-wrap .site-container-row .right-container {
   position: absolute;
   top: 0;
@@ -73,6 +102,7 @@ body {
   height: 100vh;
   position: fixed;
   text-align: center;
+  overflow: hidden;
 }
 
 #page-wrap .site-container-row .right-container a {
@@ -100,13 +130,23 @@ body {
 #page-wrap .site-container-row .right-container .logo-container-text {
   position: absolute;
   top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   padding: 15px;
+  width: 400px;
   text-align: center;
 }
 
 #page-wrap .site-container-row .right-container .logo-container-text .container-text {
   font-weight: 900;
   font-size: 32px;
+  color: #7788C4;
+}
+
+#page-wrap .site-container-row .right-container .logo-container-text .container-text-span {
+  font-weight: 400;
+  font-size: 18px;
   color: #7788C4;
 }
 

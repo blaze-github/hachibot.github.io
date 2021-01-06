@@ -24,6 +24,7 @@ body{
         .left-container{
             position: absolute;
             overflow-y:auto;
+            overflow-x: hidden;
             width:70%;
             height: 100%;
             background-color:#7788C4;
@@ -58,7 +59,36 @@ body{
             .left-content-container{
                 background-color: transparent!important;
             }
-        }
+
+            .text-marked{
+                background-color: rgb(248, 249, 250)!important;
+                color: rgba(52, 58, 64,0.6)!important;
+                font-size: 15px;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            .content-heading-20{
+                margin-top: 20px;
+            }
+            .content-heading-50{
+                margin-top: 50px;
+            }
+            table{
+                border-color: tra;
+                border-style: ;
+                border-radius: 10px;
+            }
+
+            tbody{
+                border-radius: 10px;
+            }
+            td{
+                padding: 10px 20px;
+                background-color: #f8f9fa;
+                color: #7788C4;
+            }
+
+        }   
         .right-container{
             position: absolute;
             top: 0;
@@ -67,6 +97,7 @@ body{
             height: 100vh;
             position:fixed;
             text-align: center;
+            overflow: hidden;
 
             a{
                 color: #7788C4;
@@ -92,12 +123,20 @@ body{
             .logo-container-text{
                 position: absolute;
                 top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
                 padding: 15px;
+                width: 400px;
                 text-align: center;
                 
                 .container-text{
                     font-weight: 900;
                     font-size: 32px;
+                    color: #7788C4;
+                }
+                .container-text-span{
+                    font-weight: 400;
+                    font-size: 18px;
                     color: #7788C4;
                 }
             }
